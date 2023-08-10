@@ -1,0 +1,8 @@
+[setup.backends."api.openweathermap.org"]
+description = "OpenWeatherMap API Server"
+address = "api.openweathermap.org"
+port = 443
+
+[setup.dictionaries."weather_auth".items.key]
+description = "API token for openweathermap.org"
+input_type = "string"
